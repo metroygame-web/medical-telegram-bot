@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 
 # Groq client import va sozlash (to‘g‘ri versiya)
 from groq import Client
-groq_client = Client(api_key="YOUR_GROQ_API_KEY")
+groq_client = Client(api_key="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")
 
 # Logging sozlash
 logging.basicConfig(
@@ -15,7 +15,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ====== SOZLAMALAR ======
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_TOKEN"
+TELEGRAM_TOKEN = "8369388611:AAEqKYEcLC5cQsLfbjXA-JYEgGXETjk34aA"
 
 SYSTEM_PROMPT = """Sen professional tibbiy maslahatchi botsan. O'zbekcha javob berasan."""
 
@@ -57,3 +57,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
